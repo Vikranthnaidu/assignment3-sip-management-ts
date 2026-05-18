@@ -1,0 +1,6 @@
+2026-05-18T10:09:09.287Z [INFO] : POST /login 200 - 318ms
+2026-05-18T10:10:25.663Z [INFO] : POST /login 200 - 264ms
+2026-05-18T10:10:40.285Z [INFO] : GET /getFunds 200 - 316ms
+2026-05-18T10:26:51.731Z [ERROR] : GET /sip/fund/getFunds 500 - 7ms
+2026-05-18T10:28:01.016Z [WARN] : POST /sip/invest/login 401 - 4ms
+2026-05-18T10:28:06.410Z [WARN] : POST /sip/invest/login 401 - 3ms

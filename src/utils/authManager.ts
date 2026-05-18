@@ -40,7 +40,10 @@ const verifyInvestor = (
 
   try {
 
-    const token = req.cookies.token;
+    const authHeader = req.headers.authorization;
+    const token =
+      req.cookies.token ||
+      (authHeader?.startsWith("Bearer ") ? authHeader.slice(7) : undefined);
 
     if (!token) {
       return res.status(401).json({

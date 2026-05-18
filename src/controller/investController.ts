@@ -54,6 +54,7 @@ const login = async (
       success: true,
       message: "Login Success",
       investor_id: user.investor_id,
+      token
     });
 
   } catch (error) {
